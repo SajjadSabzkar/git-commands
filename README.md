@@ -200,8 +200,12 @@ git commmit <File> -m "bump to version 1.0"
 </p>
 
 
+<hr/>
+<p dir="rtl">
+حذف برنچ های اضافی از روی گیت هاب 
+</p>
 
-
+- ` git push origin --delete <branch name> `
 <hr/>
 
 - `git push origin <branch name>`
