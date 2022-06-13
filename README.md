@@ -164,8 +164,6 @@ git commmit <File> -m "bump to version 1.0"
 
 </p>
 
-<hr/>
-
 
 <hr/>
 
