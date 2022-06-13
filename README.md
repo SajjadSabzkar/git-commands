@@ -54,6 +54,39 @@
 <p dir="rtl">
     به طور خلاصه، توضیح میدیم که این فایل اضافه شده یا تغییر داده شده چیه، کسی که لاگ ها رو بعد ما چک میکنه میتونه توضیح رو بخونه و ببینه که چیکار کردیم تو این کامیت.
 </p>
+
+<p dir="rtl" >
+اگه تغییرات یه فایلتون زیاد هست میتونین از این دستور استفاده کنید 
+</p>
+
+```
+git commit -m "Changes
+- Fixed a critical bug
+- Probably added more bugs
+"
+```
+
+<p dir="rtl" style="font-weight: bold">
+همچنین اگه میخواید کامیت شما روی یک فایل مشخص ثبت بشه می تونید از این دستور استفاده کنید برای ثبت مسیج کامیت چند خطی 
+</p>
+
+```
+git commit <File> -m "Changes
+
+- Fixed a critical bug
+
+- Probably added more bugs
+
+"
+```
+<p dir="rtl" style="font-weight: bold">
+یا اگه میخواید یک خطی باشه مسیج کامیتتون  از این دستور
+</p>
+
+```
+git commmit <File> -m "bump to version 1.0"
+```
+
 <hr/>
 
 <h3 dir="rtl"> بررسی تاریخچه کارها </h3>
@@ -118,7 +151,24 @@
         شاخه اصلی ما اسمش master هست
     </p>
 </p>
+
+<p dir="rtl">
+برای راحتی کار که هم بشه یه برنچ ساخت در صورتی که قبلا وجود نداشته باشه و هم روش سوییچ کرد میشه از این دستور استفاده کرد.
+
+</p>
+
+- `git checkout -b <name> `
+
+<p dir="rtl" style="font-weight: bold">
+در واقع این دستور ترکیبی از دو دستور فوق است.
+
+</p>
+
+
 <hr/>
+
+</hr>
+
 
 - `git merge <name>`
 
@@ -148,7 +198,24 @@
 <p dir="rtl">
     با این دستور یه مخزن آماده روی اینترنت رو به صورت لوکال تو فایل سیستم خودمون کپی میکنیم.
 </p>
+
+
 <hr/>
+<p dir="rtl">
+حذف برنچ های اضافی از روی گیت هاب 
+</p>
+
+- ` git push origin --delete <branch name> `
+<hr/>
+
+- `git push origin <branch name>`
+
+<p dir="rtl">
+ تغییرات یک برنچ دلخواه به origin اعمال میکنه.
+</p>
+<p dir="rtl"  style="font-weight:bold">
+مثلا
+</p>
 
 - `git push origin master`
 
